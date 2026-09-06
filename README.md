@@ -77,4 +77,26 @@ Fifth_project/
 
 ## 🙏 Gratitude
 
+Programming Advices Platform
+Dr. Mohammed Abu-Hadhoud
+
+[ https://programmingadvices.com ]
+
+He was not just an instructor!!
+
+He was:
+
+    A mentor
+    A coach
+    A guide
+    A motivator
+    A teacher who understands timing
+
+Because the real secret of success in programming is:
+
+    Proper progression
+    Correct guidance
+    The right timing to learn each concept
+
+And that is exactly what we experienced
 
