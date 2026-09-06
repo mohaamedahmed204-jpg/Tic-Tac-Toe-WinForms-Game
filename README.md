@@ -6,7 +6,7 @@ A polished, modular Desktop Tic-Tac-Toe application engineered in **C#** using *
 
 ## 📷 Screenshots
 
-![Tic-Tac-Toe Game Interface](<img width="810" height="449" alt="Screenshot 2026-09-06 150053" src="https://github.com/user-attachments/assets/418e758e-af49-4e3e-891b-282eb97c6637" />)
+(<img width="810" height="449" alt="Screenshot 2026-09-06 150053" src="https://github.com/user-attachments/assets/418e758e-af49-4e3e-891b-282eb97c6637" />)
 
 ---
 
