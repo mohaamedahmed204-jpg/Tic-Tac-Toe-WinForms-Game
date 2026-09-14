@@ -61,6 +61,15 @@ namespace Fifth_project.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Click_X_O {
+            get {
+                return ResourceManager.GetStream("Click_X_O", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap O {
@@ -77,6 +86,24 @@ namespace Fifth_project.Properties {
             get {
                 object obj = ResourceManager.GetObject("question-mark-96", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Star_GAme {
+            get {
+                return ResourceManager.GetStream("Star_GAme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream winner_game_sound {
+            get {
+                return ResourceManager.GetStream("winner_game_sound", resourceCulture);
             }
         }
         

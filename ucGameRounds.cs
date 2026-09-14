@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -21,6 +22,9 @@ namespace Fifth_project
         public ucGameRounds(string Player1Name, string Player2Name, short NumOfRounds)
         {
             InitializeComponent();
+
+            SoundPlayer StartSound = new SoundPlayer(Properties.Resources.Star_GAme);
+            StartSound.Play();
 
             Player1 = Player1Name;
             Player2 = Player2Name;
@@ -133,6 +137,12 @@ namespace Fifth_project
             }
         }
 
+        private void ClickSound()
+        {
+            SoundPlayer clickSound = new SoundPlayer(Properties.Resources.Click_X_O);
+            clickSound.Play();
+        }
+
         private void CurrRound(object sender, EventArgs e)
         {
             PictureBox pbx = (PictureBox)sender;
@@ -147,6 +157,7 @@ namespace Fifth_project
             else
             {
                 ChangeIcon(pbx);
+                ClickSound();
 
                 short i = Convert.ToInt16(pbx.Tag.ToString().Substring(0, 1));
                 short j = Convert.ToInt16(pbx.Tag.ToString().Substring(1, 1));
@@ -183,7 +194,7 @@ namespace Fifth_project
                             ResetBoard();
                     }
                 }
-                
+
                 lblPlayerNameTurn.Text = (lblPlayerNameTurn.Text == Player1) ? (Player2) : (Player1);                
             }
         }

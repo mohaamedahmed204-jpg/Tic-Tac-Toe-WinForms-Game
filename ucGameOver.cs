@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,6 +16,10 @@ namespace Fifth_project
         public ucGameOver(string WinnerPlayer)
         {
             InitializeComponent();
+
+            SoundPlayer winSound = new SoundPlayer(Properties.Resources.winner_game_sound);
+            winSound.Play();
+
             btnBack.SetRoundedControl(80, 2);
             lblTheWinner.Text = WinnerPlayer;
         }
